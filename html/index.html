@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for = "fname">First Name</label>
+            <input type="text" id ="fname" name="firstname" placeholder="your first name...">
+            <label for = "lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="your last name...">
+            <p>Please select your way of income:</p>
+            <input type="radio" id="Salaried" name="income_type" value="Salaried">
+            <label for ="Salaried">Salaried</label>
+            <input type="radio" id="own business" name="income_type" value="own business">
+            <label for ="own business">own business</label><br><br>
+
+            <label for ="country">Country</label>
+            <select id="country" name="country">
+                <option value="India">India</option>
+                <option value="Usa">USA</option>
+                <option value="Uk">UK</option>
+                <option value="finland">Finland</option>
+            </select>
+
+            <p>Please select your favorite programming language</p>
+             <input type="radio" id="JavaScript" name="fav_language" value="JavaScript">
+             <label for="JavaScript">JavaScript</label>
+             <ul>
+                 <li>Angular</li>
+                 <li>React</li>
+                 <li>Vue.js</li> 
+                 
+             </ul>
+             <input type="radio" id="Python" name="fav_language" value="Python">
+             <label for="Python">Python</label>
+             <ul>
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+             </ul>
+             <input type="radio" id="Java" name="fav_language" value="Java">
+             <label for="Java">Python</label>
+             <ul>
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+             </ul>
+             <input type="radio" id="Database" name="fav_language" value="Database">
+             <label for="Database">Python</label>
+             <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+             </ul>
+             <p>Anything you need to know about programming  <a href="https://google.com ">google it</a></p>           
+
+            <label for ="health chart"><b>Health chart</b></label>
+            <table border="1" cellspacing="0">
+                <tr>
+                    <th rowspan="2">State of health</th>
+                    <th>Fasting value</th>
+                    <th colspan="3" >After eating</th>                    
+                </tr>
+                <tr>
+                   
+                    <th>Minimum</th>
+                    <th>Maximum </th>
+                    <th>2hours after eating</th>
+                </tr>
+                <tr>
+                    <td>Healty</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>less than 140</td>
+                </tr>
+                <tr>
+                    <td>pre-Diabets</td>
+                    <td>101</td>
+                    <td>126</td>
+                    <td>140 to 200</td>
+                </tr>
+                <tr>
+                    <td>Diabets</td>
+                    <td>More than 126</td>
+                    <td>N/A</td>
+                    <td>More than 200</td>
+                </tr>
+            </table><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
